@@ -1,0 +1,85 @@
+.aaa {
+    background-color: blue;
+    color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 400px;
+    width: 600px;
+    height: 700px;
+}
+.box{
+    background-color: blanchedalmond;
+color: yellowgreen;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 100px;
+width: 1000px;
+height: 140px
+}
+.вввв  {
+background-color: firebrick;
+color: blueviolet;
+font-size: 10px;
+width: 1000px;
+height: 140px;
+
+
+}
+
+.container {
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+flex-wrap: wrap ;
+height: 30vh;
+}
+.item{
+    padding: 10xp;
+    font-size: 19xp;
+    border: 2xp cornflowerblue;
+    height: fit-content;
+    width: fit-content;
+    background-color: aqua;
+    flex-basis: 55%;
+}
+
+
+
+.item_1{
+    order: 5;
+    flex-grow: 50;
+    align-self: center;
+}
+.item_2{
+    order: 4;
+    flex-grow: 50;
+    align-self: center;
+}
+.item_3{
+    order: 6;
+    flex-grow: 50
+    
+}
+.item_4{
+    order: 3;
+    flex-grow: 50
+
+}
+.item_5{
+    order: 2;
+    flex-grow: 50
+}
+.item_6{
+    order: 4;
+    flex-grow: 50
+}
+.item_7{
+    order: 3;
+    flex-grow: 50
+}
+.item_8{
+    order: 2;
+    flex-grow: 50
+}
+.item_9{
+    order: 7;
+    flex-grow: 50
+}
